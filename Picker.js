@@ -3,8 +3,10 @@ import ReactNative, {
   Platform, View, TouchableOpacity, Text, StyleSheet, ActionSheetIOS
 } from 'react-native'
 
+import { Picker as OldPicker} from '@react-native-picker/picker';
+
 export default class Picker extends Component {
-  static Item = ReactNative.Picker.Item
+  static Item = OldPicker
 
   constructor(props, context) {
     super(props, context)
