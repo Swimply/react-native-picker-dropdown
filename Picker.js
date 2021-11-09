@@ -74,7 +74,7 @@ export default class Picker extends Component {
             paddingHorizontal: 6,
           }, flatStyle]}
         >
-          <ReactNative.Picker
+          <OldPicker
             {...this.props}
             style={textStyle}
           />
